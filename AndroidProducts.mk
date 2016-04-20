@@ -1,5 +1,9 @@
 #
+<<<<<<< HEAD
 # Copyright (C) 2014 The CyanogenMod Project
+=======
+# Copyright (C) 2015 The CyanogenMod Project
+>>>>>>> 463d39dd3ae155989703d1835b8cd3b9a8321814
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +18,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
+<<<<<<< HEAD
     $(LOCAL_DIR)/full_rio.mk
+=======
+	$(LOCAL_DIR)/omni_rio.mk
+>>>>>>> 463d39dd3ae155989703d1835b8cd3b9a8321814

@@ -15,6 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+<<<<<<< HEAD
 ifeq ($(TARGET_DEVICE),rio)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
@@ -90,5 +91,10 @@ ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_SYMLINKS)
 $(shell mkdir -p $(TARGET_OUT)/etc/firmware/wlan/prima; \
     ln -sf /data/misc/wifi/WCNSS_qcom_cfg.ini \
 	    $(TARGET_OUT)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini)
+=======
+ifeq ($(TARGET_DEVICE), rio)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
+>>>>>>> 463d39dd3ae155989703d1835b8cd3b9a8321814
 
 endif
